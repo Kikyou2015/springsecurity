@@ -21,4 +21,9 @@ public class TestSecurityController {
 	public String login() {
 		return "login success";
 	}
+
+	@GetMapping("/my/index")
+	public String logoutSuccess() {
+		return "logout success";
+	}
 }
